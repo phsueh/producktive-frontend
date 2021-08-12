@@ -13,13 +13,17 @@ This solo project is a productivity tracker. It leverages charts from chart.js t
 Below are instructions to view the application on your machine
 
 1. Install dependencies 
-`npm install`
+```
+npm install
+```
 2. Launch React
-`npm start`
+```
+npm start
+```
 
 ## Inspiration
 Project was inspired by seeing an overwhelming amount of fitness trackers but lack of productivity trackers.
 
 ## Licensing, Feedback, and Questions
-* Project is maintained by me. Feel free to give feedback or ask questions
-* Copywrite notice – at this time this project is not intended to be an open sourced and I am not offering any licenses
+* Project is maintained by me. Feel free to give feedback or ask questions.
+* Copywrite notice – at this time this project is not intended to be an open sourced and I am not offering any licenses. 
