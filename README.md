@@ -26,4 +26,4 @@ Project was inspired by seeing an overwhelming amount of fitness trackers but la
 
 ## Licensing, Feedback, and Questions
 * Project is maintained by me. Feel free to give feedback or ask questions.
-* Copywrite notice – at this time this project is not intended to be open sourced and I am not offering any licenses for reuse.
+* Licensing info – at this time this project is not intended to be open sourced and project is not authorized for reuse.
