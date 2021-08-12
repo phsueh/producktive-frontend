@@ -1,12 +1,18 @@
-# Getting Started with Create React App
+# ProDuckTiv
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This solo project is a productivity tracker. It leverages the use of dynamic charts from chart.js to provide users quick visual feedback regarding the status of their daily productivity.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* Users can create categories and assign durations to those categories. Pie chart will use user input data to dynamically update and provide visual representation of how time is spent
+* User can create daily tasks and assign them to categories. Users can mark tasks as complete. Doughnut chart will dynamically update to show which tasks are completed
+* User can create goals and assign them to created categories
+![image](https://user-images.githubusercontent.com/57904604/129239659-5e8580b5-fdd1-4974-9d19-93490919304c.png)
+
 
 ### `npm start`
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
