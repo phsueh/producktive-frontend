@@ -1,6 +1,6 @@
 # ProDuckTiv
 
-This solo project is a productivity tracker. It leverages charts from chart.js to dynamically provide users quick visual feedback regarding the status of their daily productivity. Frontend was built with React and CSS styling done with Bulma. To see Rails backend [click here]().
+This solo project is a productivity tracker. It leverages charts from chart.js to dynamically provide users quick visual feedback regarding the status of their daily productivity. Frontend was built with React and CSS styling done with Bulma. To see Rails backend [click here](https://github.com/phsueh/producktive-backend).
 
 ## Features
 
