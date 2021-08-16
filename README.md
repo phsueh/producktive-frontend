@@ -2,17 +2,18 @@
 
 This repo is the React frontend of a productivity tracker. This personal project leverages charts from chart.js to dynamically provide users quick visual feedback regarding the status of their daily productivity. Frontend was built with React and CSS styling done with Bulma. To see Rails backend [click here](https://github.com/phsueh/producktive-backend).
 
-<p float="left">
-  <img src="public/home-page.png" width="500" />
-  <img src="public/category-section.png" width="500" /> 
-  <img src="public/task-section.png" width="500" />
-</p>
+![home-page](/public/home-page.png)
 
 ## Features
 * User can create categories and assign durations to those categories. Pie chart uses user-data to dynamically render updates and provide visual representation of how time is spent
 * User can create daily tasks and assign them to categories. Users can mark tasks as complete. Doughnut chart will dynamically update to show which tasks are completed
 * User can create goals and assign them to created categories
 * User can benefit from the convivence of being quickly reminded regarding the status of their productivity
+
+<p float="left">
+  <img src="public/category-section.png" width="400" /> 
+  <img src="public/task-section.png" width="400" />
+</p>
 
 ## Installation and Setup
 Below are instructions to view the application on your machine
