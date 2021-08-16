@@ -4,6 +4,9 @@ This repo is the React frontend of a productivity tracker. This personal project
 
 ## Features
 
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://rubyonrails.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> </p>
+
 * User can create categories and assign durations to those categories. Pie chart uses user-data to dynamically render updates and provide visual representation of how time is spent
 * User can create daily tasks and assign them to categories. Users can mark tasks as complete. Doughnut chart will dynamically update to show which tasks are completed
 * User can create goals and assign them to created categories
