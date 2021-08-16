@@ -3,9 +3,9 @@
 This repo is the React frontend of a productivity tracker. This personal project leverages charts from chart.js to dynamically provide users quick visual feedback regarding the status of their daily productivity. Frontend was built with React and CSS styling done with Bulma. To see Rails backend [click here](https://github.com/phsueh/producktive-backend).
 
 <p float="left">
-  <img src="public/home-page.png" width="400" />
-  <img src="public/category-section.png" width="400" /> 
-  <img src="public/task-section.png" width="400" />
+  <img src="public/home-page.png" width="500" />
+  <img src="public/category-section.png" width="500" /> 
+  <img src="public/task-section.png" width="500" />
 </p>
 
 ## Features
