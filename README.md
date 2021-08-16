@@ -16,7 +16,7 @@ This repo is the React frontend of a productivity tracker. This personal project
 </p>
 
 ## Installation and Setup
-Below are instructions to view the application on your machine
+Below are instructions to view the application on your machine. Instructions assume you have React installed.
 
 1. Install dependencies 
 ```
