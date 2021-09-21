@@ -5,6 +5,7 @@ This repo is the React frontend of a productivity tracker. This personal project
 ![home-page](/public/home-page.png)
 
 ## Features
+* See demo [here](https://youtu.be/nspSrQ6zasc)
 * User can create categories and assign durations to those categories. Pie chart uses user-data to dynamically render updates and provide visual representation of how time is spent
 * User can create daily tasks and assign them to categories. Users can mark tasks as complete. Doughnut chart will dynamically update to show which tasks are completed
 * User can create goals and assign them to created categories
