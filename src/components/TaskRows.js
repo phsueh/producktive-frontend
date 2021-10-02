@@ -31,6 +31,7 @@ export default function TaskRows(props) {
             <td>{props.priority}</td>
             <td>{props.end_date}</td>
             <td><input onChange={handleTaskComplete} type="checkbox" name="complete" value="complete"></input></td>
+            <td><button>Delete</button></td>
         </tr>
     )
 }
