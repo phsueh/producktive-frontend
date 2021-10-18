@@ -2,8 +2,6 @@ import React from 'react'
 
 export default function TaskRows(props) {
 
-    // console.log(props)
-
     const handleTaskComplete = (e) => {
         fetch(`http://localhost:3000/tasks/${props.id}`, {
             method: "PATCH", 

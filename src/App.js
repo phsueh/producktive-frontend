@@ -44,10 +44,7 @@ function App(props) {
   // const [categories, setCategories] = useState([]
   // )
 
-  console.log(userInfo.tasks)
-
   const handleSignUp = (userInfo) => {
-    console.log("Create account form has been submitted")
 
     fetch("http://localhost:3000/signup", {
       method: "POST",
@@ -84,7 +81,6 @@ function App(props) {
   }
 
   const handleLogin = (userInfo) => {
-    console.log("Login form has been submitted")
 
     fetch("http://localhost:3000/login", {
       method: "POST",
@@ -123,7 +119,7 @@ function App(props) {
   }
 
   const addTask = (task) => {
-    console.log(task)
+
     setUserInfo({
       ...userInfo, 
       tasks: [...userInfo.tasks, task]
@@ -131,8 +127,6 @@ function App(props) {
   }
 
   const handleTaskComplete = (task) => {
-
-    console.log(task)
   
     setUserInfo({
       ...userInfo,
@@ -141,25 +135,19 @@ function App(props) {
   }
 
   const deleteGoal = (goal) => {
-    console.log(goal)
     
     let findCategoryForGoal = userInfo.categories.find(category => {
       return category.id === goal.category_id
     })
-    console.log(findCategoryForGoal)
     
     let newArrOfGoals = findCategoryForGoal.goals.filter(goalsObj => {
       return goalsObj.id !== goal.id
     })
 
-    console.log(newArrOfGoals)
-
     let copyOfGoals = {
       ...findCategoryForGoal, 
       goals: newArrOfGoals
     }
-
-    console.log(copyOfGoals)
 
     replaceCategoryInState(copyOfGoals)
 
